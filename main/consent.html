@@ -1,0 +1,95 @@
+<html>
+<head>
+	<title>VAL@GT Perceptive interaction study</title>
+</head>
+<script type="text/javascript">
+	function setCookie(cname, cvalue) {
+	    var d = new Date();
+	    //d.setTime(d.getTime() + (exdays*24*60*60*1000));
+	    //var expires = "expires="+d.toUTCString();
+	    document.cookie = cname + "=" + cvalue + ";";
+	}
+	var currentdate = new Date(); 
+	var sessionUserId="user"+currentdate.getHours()+currentdate.getMinutes()+currentdate.getSeconds()+currentdate.getMilliseconds();
+	//console.log(sessionUserId)
+	setCookie("sessionUserId",sessionUserId)
+
+	//document.cookie = "sessionUserId="+sessionUserId+";"
+	//console.log(document.cookie)	
+</script>
+<body>
+<!--	<div align="center" style="margin-left:50px;margin-right:50px;">
+	<h3>Perceptive Interaction Study: User Consent Form</h3>
+	
+You are being asked to be a volunteer in a research study.
+
+<h4>Purpose</h4>
+The purpose of this study is to evaluate the effectiveness of basic visual encodings for user interaction. We expect to enroll 100 participants in the study. 
+
+<h4>Inclusion/Exclusion Criteria:</h4>
+Participants in this study must have the ability to read English. The age criteria is such that only participants age 18 and over are allowed to participate. 
+
+<h4>Procedures</h4>
+If you decide to take part in this study, you will be asked to interact with a set of visual encodings in the browser. You will be given a demographic survey followed by 10 training questions and answers.  Then, a randomized order of 84 questions for the actual study. During each questions, the system will log your user interactions on the study website. You may stop at any time, for any reason. 
+
+<h4>Risks or discomforts:</h4>
+The risks associated with this study are minimal. They are no greater than those involved in daily web browsing activities. 
+
+<h4>Benefits:</h4>
+You are not likely to directly benefit from this study. We hope that the results of the study will help us continue to improve the usability of data visualizations. 
+
+<h4>Compensation to You:</h4>
+You will be compensated $5 for your time and effort. The study should not take more than 20 minutes. Upon completion, you will be asked to enter your email address to arrange for payment. The top 3 highest scores (based on time and accuracy) will be given a $25 additional prize. These additional prizes will be determined within one month of the conclusion of the study. 
+
+<h4>Confidentiality:</h4>
+The following procedures will be followed to keep your personal information confidential in this study:  The data collected about you will be kept private to the extent allowed by law.  To protect your privacy, your records will be kept under a code number rather than by name.  Your records will be kept in locked files and only study staff will be allowed to look at them.  Your name and any other fact that might point to you will not appear when results of this study are presented or published.  Your privacy will be protected to the extent allowed by law.  To make sure that this research is being carried out in the proper way, the Georgia Institute of Technology IRB may review study records.  The Office of Human Research Protections may also look over study records during required reviews.
+
+You should be aware that the experiment is not being run from a ‘secure’ https server of the kind typically used to handle credit card transactions, so there is a small possibility that responses could be viewed by unauthorized third parties such as computer hackers.  In general, the web page software will log as header lines the IP address of the machine you use to access this page, e.g.,102.403.506.807, but otherwise no other information will be stored unless you explicitly enter it.
+
+<h4>Costs to You:</h4>
+There are no costs to you, other than your time, for being in this study.
+
+<h4>In Case of Injury/Harm:</h4>
+If you are injured as a result of being in this study, please contact Alex Endert, Ph.D., at telephone (706) 940-2539.  Neither the Principal Investigator nor Georgia Institute of Technology has made provision for payment of costs associated with any injury resulting from participation in this study.
+
+<h4>Participant Rights:</h4>
+Your participation in this study is voluntary. You do not have to be in this study if you don't want to be.
+You have the right to change your mind and leave the study at any time without giving any reason and without penalty.
+Any new information that may make you change your mind about being in this study will be given to you.
+If you would like, you may print a copy of the consent form.
+You do not waive any of your legal rights by signing this consent form.
+
+<h4>Questions about the Study:</h4>
+If you have any questions about the study, you may contact Dr. Alex Endert at telephone (706) 940-2539 or endert@gatech.edu.
+
+<h4>Questions about Your Rights as  research Participant:</h4>
+<pre>If you have any questions about your rights as a research participant, you may contact 
+
+Ms. Melanie Clark, Georgia Institute of Technology
+Office of Research Integrity Assurance, at (404) 894-6942.”
+[or]
+“Ms. Kelly Winn, Georgia Institute of Technology
+Office of Research Integrity Assurance, at (404) 385- 2175.
+</pre>
+
+<p>	
+By clicking the "Continue to study" button below, you indicate your consent to be in the study.
+	</p>
+	<button onclick="goToTrial();">Continue to study</button>
+	</div>
+</body>
+<script type="text/javascript">
+	function goToTrial(){
+		window.location.href = 'userinfo.html';
+	}
+</script>
+-->
+<div align="center" style="margin-left:50px;margin-right:50px;">
+Dear Visitor,<br>
+The data collection phase of the experiment is complete and we are no longer collecting interaction logs from user sessions.<br><br>
+If you are a returning participant, we will contact you regarding the payment and notify about the top 3 participants directly via the email address you provided. If you have any other questions or concerns, please feel free to contact us at <a href="mailto:endert@gatech.edu" target="_top">endert@gatech.edu</a> or <a href="mailto:arjun010@gatech.edu" target="_top">arjun010@gatech.edu</a><br><br>
+Thank you for your time and interest,<br>
+The Visual Analytics Lab @ Georgia Tech
+</div>
+</body>
+</html>

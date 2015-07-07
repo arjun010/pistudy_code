@@ -1,0 +1,1000 @@
+Total users in logs : 2
+All users : ['user11419761', 'user16314881']
+Filtered users in logs : 2
+Filtered users : ['user16314881', 'user11419761']
+------------------
+End_values by user
+------------------
+---
+user16314881
+---
+angle_1 : 25.8815114005
+square_area_1 : 13.689
+texture_4 : 23
+horizontal_slider_5 : 73.37
+vertical_direction_7 : 390
+horizontal_direction_6 : 702
+width_5 : 290
+texture_5 : 15
+horizontal_slider_2 : 14.5
+vertical_slider_4 : 69.14
+angle_5 : 22.9368083899
+horizontal_direction_2 : 162
+width_1 : 95
+width_3 : 145
+line_shape_6 : 63
+height_3 : 69
+height_2 : 27
+hor_curve_6 : 85
+line_shape_4 : 50
+height_5 : 149
+circle_area_3 : 26
+texture_1 : 99
+horizontal_slider_3 : 37.87
+circle_area_6 : 67
+hor_curve_4 : 80
+vertical_direction_6 : 343
+vertical_slider_6 : 84
+horizontal_direction_1 : 252
+line_shape_7 : 69
+width_4 : 253
+vertical_direction_5 : 288
+vertical_slider_5 : 75.71
+circle_area_4 : 58
+angle_7 : 27.4509977709
+height_7 : 189
+angle_3 : 8.52352580969
+line_shape_1 : 21
+hor_curve_3 : 35
+height_6 : 154
+height_1 : 58
+width_6 : 310
+square_area_4 : 56.169
+hor_curve_1 : 33
+horizontal_direction_3 : 398
+square_area_5 : 66.049
+line_shape_3 : 22
+texture_2 : 2
+hor_curve_5 : 90
+vertical_slider_2 : 14
+texture_6 : 2
+vertical_direction_2 : 66
+circle_area_1 : 22
+horizontal_slider_1 : 26.0
+height_4 : 140
+square_area_7 : 81.225
+horizontal_slider_4 : 60.62
+texture_7 : 2
+width_2 : 47
+horizontal_slider_7 : 100
+vertical_direction_4 : 258
+vertical_direction_1 : 97
+vertical_direction_3 : 143
+line_shape_2 : 16
+vertical_slider_1 : 24.0
+horizontal_direction_4 : 583
+vertical_slider_3 : 76.57
+square_area_3 : 25.281
+angle_6 : 22.1615937462
+square_area_2 : 5.184
+texture_3 : 75
+hor_curve_7 : 98
+horizontal_direction_5 : 700
+circle_area_7 : 91
+width_7 : 380
+circle_area_5 : 65
+angle_4 : 20.5721848754
+horizontal_direction_7 : 675
+circle_area_2 : 17
+horizontal_slider_6 : 84.37
+square_area_6 : 77.284
+line_shape_5 : 51
+angle_2 : 4.29986282019
+hor_curve_2 : 18
+vertical_slider_7 : 100
+---
+user11419761
+---
+square_area_3 : 105.625
+width_7 : 300
+angle_5 : 34.9569411543
+height_6 : 196
+vertical_direction_4 : 333
+vertical_slider_1 : 73.71
+angle_1 : 23.4660758697
+vertical_slider_6 : 0
+height_1 : 162
+hor_curve_5 : 123
+vertical_direction_1 : 383
+line_shape_2 : 9
+height_4 : 165
+line_shape_4 : 82
+hor_curve_3 : 105
+horizontal_direction_4 : 236
+texture_4 : 80
+angle_4 : 35.269721492
+horizontal_slider_4 : 33.5
+horizontal_slider_6 : 70.5
+horizontal_direction_7 : 579
+horizontal_direction_1 : 294
+square_area_4 : 108.241
+circle_area_5 : 80
+square_area_6 : 99.225
+height_3 : 199
+circle_area_6 : 108
+width_2 : 366
+hor_curve_4 : 22
+vertical_slider_4 : 100
+texture_6 : 27
+height_2 : 187
+horizontal_slider_3 : 68.25
+hor_curve_6 : 4
+width_6 : 260
+vertical_slider_3 : 0
+horizontal_slider_2 : 17.0
+texture_1 : 21
+hor_curve_7 : 96
+horizontal_direction_2 : 334
+width_5 : 287
+vertical_slider_5 : 24.29
+vertical_slider_7 : 100
+circle_area_2 : 107
+width_4 : 341
+horizontal_slider_1 : 21.5
+angle_6 : 29.6820397762
+circle_area_7 : 145
+horizontal_direction_3 : 279
+horizontal_direction_5 : 714
+texture_7 : 68
+horizontal_slider_7 : 100
+square_area_1 : 159.201
+texture_2 : 25
+width_1 : 342
+vertical_slider_2 : 0
+vertical_direction_5 : 366
+angle_2 : 43.6107883418
+vertical_direction_3 : 409
+square_area_2 : 109.561
+horizontal_slider_5 : 34.5
+square_area_7 : 94.249
+vertical_direction_2 : 113
+square_area_5 : 99.856
+texture_3 : 27
+line_shape_6 : 107
+circle_area_1 : 151
+line_shape_3 : 4
+vertical_direction_7 : 144
+texture_5 : 57
+line_shape_7 : 92
+line_shape_5 : 105
+hor_curve_1 : 11
+width_3 : 295
+angle_7 : 6.20040833779
+hor_curve_2 : 11
+line_shape_1 : 111
+height_7 : 195
+angle_3 : 25.909930482
+circle_area_3 : 107
+circle_area_4 : 145
+height_5 : 28
+horizontal_direction_6 : 300
+vertical_direction_6 : 363
+------------------
+End_value errors by user
+------------------
+---
+user16314881
+---
+angle_1 : 245.086818673
+square_area_1 : -31.555
+texture_4 : -54.0
+horizontal_slider_5 : -2.17333333333
+vertical_direction_7 : -2.5
+horizontal_direction_6 : -19.7714285714
+width_5 : -3.33333333333
+texture_5 : -75.0
+horizontal_slider_2 : 16.0
+vertical_slider_4 : 10.624
+angle_5 : 1.94137062178
+horizontal_direction_2 : 29.6
+width_1 : -5.0
+width_3 : -3.33333333333
+line_shape_6 : 0.0
+height_3 : -8.0
+height_2 : 8.0
+hor_curve_6 : -19.0476190476
+line_shape_4 : 11.1111111111
+height_5 : -0.666666666667
+circle_area_3 : -13.3333333333
+texture_1 : 395.0
+horizontal_slider_3 : 0.986666666667
+circle_area_6 : -4.28571428571
+hor_curve_4 : 6.66666666667
+vertical_direction_6 : -2.0
+vertical_slider_6 : -4.0
+horizontal_direction_1 : 0.8
+line_shape_7 : -4.16666666667
+width_4 : 1.2
+vertical_direction_5 : -4.0
+vertical_slider_5 : 0.946666666667
+circle_area_4 : 16.0
+angle_7 : -8.496674097
+height_7 : -5.5
+angle_3 : -24.2353261361
+line_shape_1 : 16.6666666667
+hor_curve_3 : -22.2222222222
+height_6 : -12.0
+height_1 : 16.0
+width_6 : -11.4285714286
+square_area_4 : 12.338
+hor_curve_1 : 10.0
+horizontal_direction_3 : 6.13333333333
+square_area_5 : 10.0816666667
+line_shape_3 : -18.5185185185
+texture_2 : -80.0
+hor_curve_5 : 0.0
+vertical_slider_2 : 12.0
+texture_6 : -97.1428571429
+vertical_direction_2 : 32.0
+circle_area_1 : 10.0
+horizontal_slider_1 : 4.0
+height_4 : 12.0
+square_area_7 : 1.53125
+horizontal_slider_4 : -3.008
+texture_7 : -97.5
+width_2 : -6.0
+horizontal_slider_7 : 0.0
+vertical_direction_4 : 3.2
+vertical_direction_1 : -3.0
+vertical_direction_3 : -4.66666666667
+line_shape_2 : 77.7777777778
+vertical_slider_1 : -4.0
+horizontal_direction_4 : -6.72
+vertical_slider_3 : 104.186666667
+square_area_3 : -15.73
+angle_6 : -15.5748809669
+square_area_2 : -48.16
+texture_3 : 150.0
+hor_curve_7 : -18.3333333333
+horizontal_direction_5 : -6.66666666667
+circle_area_7 : 13.75
+width_7 : -5.0
+circle_area_5 : 8.33333333333
+angle_4 : 9.71831933547
+horizontal_direction_7 : -20.5882352941
+circle_area_2 : 70.0
+horizontal_slider_6 : -3.57714285714
+square_area_6 : 10.4057142857
+line_shape_5 : -5.55555555556
+angle_2 : 14.6630085384
+hor_curve_2 : 20.0
+vertical_slider_7 : 0.0
+---
+user11419761
+---
+square_area_3 : 252.083333333
+width_7 : -25.0
+angle_5 : 55.364182908
+height_6 : 12.0
+vertical_direction_4 : 33.2
+vertical_slider_1 : 194.84
+angle_1 : 212.881011596
+vertical_slider_6 : -100.0
+height_1 : 224.0
+hor_curve_5 : 36.6666666667
+vertical_direction_1 : 283.0
+line_shape_2 : 0.0
+height_4 : 32.0
+line_shape_4 : 82.2222222222
+hor_curve_3 : 133.333333333
+horizontal_direction_4 : -62.24
+texture_4 : 60.0
+angle_4 : 88.1051812907
+horizontal_slider_4 : -46.4
+horizontal_slider_6 : -19.4285714286
+horizontal_direction_7 : -31.8823529412
+horizontal_direction_1 : 17.6
+square_area_4 : 116.482
+circle_area_5 : 33.3333333333
+square_area_6 : 41.75
+height_3 : 165.333333333
+circle_area_6 : 54.2857142857
+width_2 : 632.0
+hor_curve_4 : -70.6666666667
+vertical_slider_4 : 60.0
+texture_6 : -61.4285714286
+height_2 : 648.0
+horizontal_slider_3 : 82.0
+hor_curve_6 : -96.1904761905
+width_6 : -25.7142857143
+vertical_slider_3 : -100.0
+horizontal_slider_2 : 36.0
+texture_1 : 5.0
+hor_curve_7 : -20.0
+horizontal_direction_2 : 167.2
+width_5 : -4.33333333333
+vertical_slider_5 : -67.6133333333
+vertical_slider_7 : 0.0
+circle_area_2 : 970.0
+width_4 : 36.4
+horizontal_slider_1 : -14.0
+angle_6 : 13.0744372427
+circle_area_7 : 81.25
+horizontal_direction_3 : -25.6
+horizontal_direction_5 : -4.8
+texture_7 : -15.0
+horizontal_slider_7 : 0.0
+square_area_1 : 696.005
+texture_2 : 150.0
+width_1 : 242.0
+vertical_slider_2 : -100.0
+vertical_direction_5 : 22.0
+angle_2 : 1062.95435578
+vertical_direction_3 : 172.666666667
+square_area_2 : 995.61
+horizontal_slider_5 : -54.0
+square_area_7 : 17.81125
+vertical_direction_2 : 126.0
+square_area_5 : 66.4266666667
+texture_3 : -10.0
+line_shape_6 : 69.8412698413
+circle_area_1 : 655.0
+line_shape_3 : -85.1851851852
+vertical_direction_7 : -64.0
+texture_5 : -5.0
+line_shape_7 : 27.7777777778
+line_shape_5 : 94.4444444444
+hor_curve_1 : -63.3333333333
+width_3 : 96.6666666667
+angle_7 : -79.3319722074
+hor_curve_2 : -26.6666666667
+line_shape_1 : 516.666666667
+height_7 : -2.5
+angle_3 : 130.310493173
+circle_area_3 : 256.666666667
+circle_area_4 : 190.0
+height_5 : -81.3333333333
+horizontal_direction_6 : -65.7142857143
+vertical_direction_6 : 3.71428571429
+------------------
+Average end_values
+------------------
+hor_curve_1 : 22.0
+angle_3 : 17.2167281459
+hor_curve_3 : 70.0
+hor_curve_2 : 14.5
+hor_curve_5 : 106.5
+hor_curve_4 : 51.0
+hor_curve_7 : 97.0
+hor_curve_6 : 44.5
+square_area_7 : 87.737
+square_area_6 : 88.2545
+square_area_5 : 82.9525
+line_shape_2 : 12.5
+square_area_3 : 65.453
+line_shape_4 : 66.0
+square_area_1 : 86.445
+line_shape_6 : 85.0
+texture_5 : 36.0
+texture_4 : 51.5
+texture_7 : 35.0
+texture_6 : 14.5
+texture_1 : 60.0
+texture_3 : 51.0
+texture_2 : 13.5
+height_7 : 192.0
+angle_7 : 16.8257030544
+line_shape_1 : 66.0
+angle_6 : 25.9218167612
+vertical_direction_1 : 240.0
+horizontal_slider_2 : 15.75
+vertical_direction_3 : 276.0
+vertical_direction_2 : 89.5
+vertical_direction_5 : 327.0
+vertical_direction_4 : 295.5
+vertical_direction_7 : 267.0
+height_5 : 88.5
+horizontal_direction_2 : 248.0
+horizontal_direction_6 : 501.0
+height_4 : 152.5
+horizontal_slider_3 : 53.06
+height_6 : 175.0
+horizontal_slider_1 : 23.75
+horizontal_slider_6 : 77.435
+height_1 : 110.0
+horizontal_slider_4 : 47.06
+height_3 : 134.0
+width_6 : 285.0
+width_7 : 340.0
+circle_area_2 : 62.0
+width_5 : 288.5
+width_2 : 206.5
+circle_area_5 : 72.5
+circle_area_6 : 87.5
+circle_area_7 : 118.0
+horizontal_direction_1 : 273.0
+angle_2 : 23.955325581
+angle_1 : 24.6737936351
+square_area_4 : 82.205
+horizontal_direction_5 : 707.0
+horizontal_direction_4 : 409.5
+angle_5 : 28.9468747721
+angle_4 : 27.9209531837
+line_shape_5 : 78.0
+horizontal_slider_5 : 53.935
+width_4 : 297.0
+square_area_2 : 57.3725
+horizontal_slider_7 : 100.0
+line_shape_7 : 80.5
+circle_area_1 : 86.5
+vertical_slider_2 : 7.0
+vertical_slider_3 : 38.285
+vertical_slider_1 : 48.855
+vertical_slider_6 : 42.0
+vertical_slider_7 : 100.0
+vertical_slider_4 : 84.57
+vertical_slider_5 : 50.0
+horizontal_direction_7 : 627.0
+line_shape_3 : 13.0
+circle_area_3 : 66.5
+vertical_direction_6 : 353.0
+horizontal_direction_3 : 338.5
+circle_area_4 : 101.5
+height_2 : 107.0
+width_3 : 220.0
+width_1 : 218.5
+------------------
+Average end_value errors
+------------------
+hor_curve_1 : -26.6666666667
+angle_3 : 53.0375835187
+hor_curve_3 : 55.5555555556
+hor_curve_2 : -3.33333333333
+hor_curve_5 : 18.3333333333
+hor_curve_4 : -32.0
+hor_curve_7 : -19.1666666667
+hor_curve_6 : -57.619047619
+square_area_7 : 9.67125
+square_area_6 : 26.0778571429
+square_area_5 : 38.2541666667
+line_shape_2 : 38.8888888889
+square_area_3 : 118.176666667
+line_shape_4 : 46.6666666667
+square_area_1 : 332.225
+line_shape_6 : 34.9206349206
+texture_5 : -40.0
+texture_4 : 3.0
+texture_7 : -56.25
+texture_6 : -79.2857142857
+texture_1 : 200.0
+texture_3 : 70.0
+texture_2 : 35.0
+height_7 : -4.0
+angle_7 : -43.9143231521
+line_shape_1 : 266.666666667
+angle_6 : -1.25022186217
+vertical_direction_1 : 140.0
+horizontal_slider_2 : 26.0
+vertical_direction_3 : 84.0
+vertical_direction_2 : 79.0
+vertical_direction_5 : 9.0
+vertical_direction_4 : 18.2
+vertical_direction_7 : -33.25
+height_5 : -41.0
+horizontal_direction_2 : 98.4
+horizontal_direction_6 : -42.7428571429
+height_4 : 22.0
+horizontal_slider_3 : 41.4933333333
+height_6 : 0.0
+horizontal_slider_1 : -5.0
+horizontal_slider_6 : -11.5028571429
+height_1 : 120.0
+horizontal_slider_4 : -24.704
+height_3 : 78.6666666667
+width_6 : -18.5714285714
+width_7 : -15.0
+circle_area_2 : 520.0
+width_5 : -3.83333333333
+width_2 : 313.0
+circle_area_5 : 20.8333333333
+circle_area_6 : 25.0
+circle_area_7 : 47.5
+horizontal_direction_1 : 9.2
+angle_2 : 538.80868216
+angle_1 : 228.983915135
+square_area_4 : 64.41
+horizontal_direction_5 : -5.73333333333
+horizontal_direction_4 : -34.48
+angle_5 : 28.6527767648
+angle_4 : 48.9117503129
+line_shape_5 : 44.4444444444
+horizontal_slider_5 : -28.0866666667
+width_4 : 18.8
+square_area_2 : 473.725
+horizontal_slider_7 : 0.0
+line_shape_7 : 11.8055555556
+circle_area_1 : 332.5
+vertical_slider_2 : -44.0
+vertical_slider_3 : 2.09333333333
+vertical_slider_1 : 95.42
+vertical_slider_6 : -52.0
+vertical_slider_7 : 0.0
+vertical_slider_4 : 35.312
+vertical_slider_5 : -33.3333333333
+horizontal_direction_7 : -26.2352941176
+line_shape_3 : -51.8518518519
+circle_area_3 : 121.666666667
+vertical_direction_6 : 0.857142857143
+horizontal_direction_3 : -9.73333333333
+circle_area_4 : 103.0
+height_2 : 328.0
+width_3 : 46.6666666667
+width_1 : 118.5
+------------------
+Interaction Time stats by question and user
+------------------
+------
+user16314881
+------
+hor_curve_1 : 4.00099992752 sec.
+angle_3 : 0.608000278473 sec.
+hor_curve_3 : 2.31199979782 sec.
+hor_curve_2 : 2.25600004196 sec.
+hor_curve_5 : 1.18400001526 sec.
+hor_curve_4 : 1.29699993134 sec.
+hor_curve_7 : 1.29600000381 sec.
+hor_curve_6 : 2.98400020599 sec.
+square_area_7 : 1.23099994659 sec.
+square_area_6 : 1.3189997673 sec.
+square_area_5 : 1.11299991608 sec.
+line_shape_2 : 1.5689997673 sec.
+square_area_3 : 0.325999736786 sec.
+line_shape_4 : 3.15899991989 sec.
+square_area_1 : 0.519000053406 sec.
+line_shape_6 : 1.62400007248 sec.
+texture_5 : 7.32000017166 sec.
+texture_4 : 6.67899990082 sec.
+texture_7 : 2.75999975204 sec.
+texture_6 : 2.64699983597 sec.
+texture_1 : 3.08000040054 sec.
+texture_3 : 3.96000003815 sec.
+texture_2 : 4.88700008392 sec.
+height_7 : 1.45499992371 sec.
+angle_7 : 2.3189997673 sec.
+line_shape_1 : 1.61600017548 sec.
+angle_6 : 1.44799995422 sec.
+vertical_direction_1 : 1.23099994659 sec.
+horizontal_slider_2 : 0.782999992371 sec.
+vertical_direction_3 : 1.10099983215 sec.
+vertical_direction_2 : 1.03200006485 sec.
+vertical_direction_5 : 0.3109998703 sec.
+vertical_direction_4 : 1.63899993896 sec.
+vertical_direction_7 : 0.728000164032 sec.
+height_5 : 2.95900011063 sec.
+horizontal_direction_2 : 1.23199987411 sec.
+horizontal_direction_6 : 1.0720000267 sec.
+height_4 : 0.317999839783 sec.
+horizontal_slider_3 : 1.20700025558 sec.
+height_6 : 2.51900005341 sec.
+horizontal_slider_1 : 1.66300010681 sec.
+horizontal_slider_6 : 2.01499986649 sec.
+height_1 : 0.486999988556 sec.
+horizontal_slider_4 : 1.60799980164 sec.
+height_3 : 0.679000377655 sec.
+width_6 : 1.26399993896 sec.
+width_7 : 1.91300010681 sec.
+circle_area_2 : 0.894999980927 sec.
+width_5 : 1.46899986267 sec.
+width_2 : 2.3029999733 sec.
+circle_area_5 : 0.654999732971 sec.
+circle_area_6 : 0.91100025177 sec.
+circle_area_7 : 0.470000267029 sec.
+horizontal_direction_1 : 1.57600021362 sec.
+angle_2 : 0.53600025177 sec.
+angle_1 : 0.543000221252 sec.
+square_area_4 : 0.735999584198 sec.
+horizontal_direction_5 : 2.13499975204 sec.
+horizontal_direction_4 : 1.03299999237 sec.
+angle_5 : 0.720000267029 sec.
+angle_4 : 0.656000137329 sec.
+line_shape_5 : 2.15200042725 sec.
+horizontal_slider_5 : 0.958999633789 sec.
+width_4 : 1.36800003052 sec.
+square_area_2 : 1.16600036621 sec.
+horizontal_slider_7 : 0.559000015259 sec.
+line_shape_7 : 5.45900011063 sec.
+circle_area_1 : 1.5609998703 sec.
+vertical_slider_2 : 2.09499979019 sec.
+vertical_slider_3 : 2.32800006866 sec.
+vertical_slider_1 : 1.55100011826 sec.
+vertical_slider_6 : 0.726999759674 sec.
+vertical_slider_7 : 0.183000087738 sec.
+vertical_slider_4 : 0.758999824524 sec.
+vertical_slider_5 : 1.70399999619 sec.
+horizontal_direction_7 : 2.29600000381 sec.
+line_shape_3 : 2.06500005722 sec.
+circle_area_3 : 0.614999771118 sec.
+vertical_direction_6 : 1.23799991608 sec.
+horizontal_direction_3 : 0.894999980927 sec.
+circle_area_4 : 1.33599996567 sec.
+height_2 : 1.6139998436 sec.
+width_3 : 0.727999687195 sec.
+width_1 : 0.942999839783 sec.
+Total number of seconds user user16314881 actually interacted with elements : 139.668999195 sec.
+------
+user11419761
+------
+hor_curve_1 : 0.887999534607 sec.
+angle_3 : 0.222999572754 sec.
+hor_curve_3 : 0.591000080109 sec.
+hor_curve_2 : 5.66300010681 sec.
+hor_curve_5 : 0.880000114441 sec.
+hor_curve_4 : 0.596999645233 sec.
+hor_curve_7 : 0.736000061035 sec.
+hor_curve_6 : 3.23999977112 sec.
+square_area_7 : 0.306000232697 sec.
+square_area_6 : 0.311000347137 sec.
+square_area_5 : 0.38300037384 sec.
+line_shape_2 : 1.72899961472 sec.
+square_area_3 : 0.96799993515 sec.
+line_shape_4 : 0.809000015259 sec.
+square_area_1 : 0.216000080109 sec.
+line_shape_6 : 1.41599988937 sec.
+texture_5 : 0.4390001297 sec.
+texture_4 : 0.686999797821 sec.
+texture_7 : 0.551000118256 sec.
+texture_6 : 0.735000133514 sec.
+texture_1 : 0.679999828339 sec.
+texture_3 : 0.0910000801086 sec.
+texture_2 : 0.327000141144 sec.
+height_7 : 0.399000167847 sec.
+angle_7 : 0.717000007629 sec.
+line_shape_1 : 0.52799987793 sec.
+angle_6 : 0.240000247955 sec.
+vertical_direction_1 : 0.691999912262 sec.
+horizontal_slider_2 : 0.236000061035 sec.
+vertical_direction_3 : 0.109000205994 sec.
+vertical_direction_2 : 0.223999977112 sec.
+vertical_direction_5 : 0.191999912262 sec.
+vertical_direction_4 : 0.134999752045 sec.
+vertical_direction_7 : 0.0290002822876 sec.
+height_5 : 0.0139999389648 sec.
+horizontal_direction_2 : 0.190999984741 sec.
+horizontal_direction_6 : 0.120000362396 sec.
+height_4 : 0.627999782562 sec.
+horizontal_slider_3 : 0.230999946594 sec.
+height_6 : 0.120000362396 sec.
+horizontal_slider_1 : 0.899000167847 sec.
+horizontal_slider_6 : 0.166999816895 sec.
+height_1 : 0.0960001945496 sec.
+horizontal_slider_4 : 0.0 sec.
+height_3 : 0.151000022888 sec.
+width_6 : 2.34399986267 sec.
+width_7 : 0.541999816895 sec.
+circle_area_2 : 0.311999797821 sec.
+width_5 : 0.205999851227 sec.
+width_2 : 0.424000263214 sec.
+circle_area_5 : 0.118999958038 sec.
+circle_area_6 : 0.118999958038 sec.
+circle_area_7 : 0.119999885559 sec.
+horizontal_direction_1 : 0.151000022888 sec.
+angle_2 : 0.241000175476 sec.
+angle_1 : 0.104000091553 sec.
+square_area_4 : 0.223000049591 sec.
+horizontal_direction_5 : 0.168000221252 sec.
+horizontal_direction_4 : 0.126999855042 sec.
+angle_5 : 0.176000118256 sec.
+angle_4 : 0.984000205994 sec.
+line_shape_5 : 0.487999916077 sec.
+horizontal_slider_5 : 0.0 sec.
+width_4 : 0.223000049591 sec.
+square_area_2 : 0.183000087738 sec.
+horizontal_slider_7 : 0.135999679565 sec.
+line_shape_7 : 1.20700025558 sec.
+circle_area_1 : 0.246999740601 sec.
+vertical_slider_2 : 0.187000274658 sec.
+vertical_slider_3 : 0.0949997901917 sec.
+vertical_slider_1 : 0.262000083923 sec.
+vertical_slider_6 : 0.158999919891 sec.
+vertical_slider_7 : 0.143999576569 sec.
+vertical_slider_4 : 0.228000164032 sec.
+vertical_slider_5 : 0.184000015259 sec.
+horizontal_direction_7 : 0.111000061035 sec.
+line_shape_3 : 0.464000225067 sec.
+circle_area_3 : 0.104000091553 sec.
+vertical_direction_6 : 0.296000003815 sec.
+horizontal_direction_3 : 0.0509996414185 sec.
+circle_area_4 : 0.499000072479 sec.
+height_2 : 0.27899980545 sec.
+width_3 : 0.263000011444 sec.
+width_1 : 0.499000072479 sec.
+Total number of seconds user user11419761 actually interacted with elements : 41.2530002594 sec.
+------------------
+Average interaction time per question
+------------------
+hor_curve_1 : 2.44449973106 sec.
+angle_3 : 0.415499925613 sec.
+hor_curve_3 : 1.45149993896 sec.
+hor_curve_2 : 3.95950007439 sec.
+hor_curve_5 : 1.03200006485 sec.
+hor_curve_4 : 0.946999788284 sec.
+hor_curve_7 : 1.01600003242 sec.
+hor_curve_6 : 3.11199998856 sec.
+square_area_7 : 0.768500089645 sec.
+square_area_6 : 0.81500005722 sec.
+square_area_5 : 0.748000144958 sec.
+line_shape_2 : 1.64899969101 sec.
+square_area_3 : 0.646999835968 sec.
+line_shape_4 : 1.98399996758 sec.
+square_area_1 : 0.367500066757 sec.
+line_shape_6 : 1.51999998093 sec.
+texture_5 : 3.87950015068 sec.
+texture_4 : 3.68299984932 sec.
+texture_7 : 1.65549993515 sec.
+texture_6 : 1.69099998474 sec.
+texture_1 : 1.88000011444 sec.
+texture_3 : 2.02550005913 sec.
+texture_2 : 2.60700011253 sec.
+height_7 : 0.927000045776 sec.
+angle_7 : 1.51799988747 sec.
+line_shape_1 : 1.0720000267 sec.
+angle_6 : 0.844000101089 sec.
+vertical_direction_1 : 0.961499929428 sec.
+horizontal_slider_2 : 0.509500026703 sec.
+vertical_direction_3 : 0.605000019073 sec.
+vertical_direction_2 : 0.628000020981 sec.
+vertical_direction_5 : 0.251499891281 sec.
+vertical_direction_4 : 0.886999845505 sec.
+vertical_direction_7 : 0.37850022316 sec.
+height_5 : 1.4865000248 sec.
+horizontal_direction_2 : 0.711499929428 sec.
+horizontal_direction_6 : 0.59600019455 sec.
+height_4 : 0.472999811172 sec.
+horizontal_slider_3 : 0.719000101089 sec.
+height_6 : 1.3195002079 sec.
+horizontal_slider_1 : 1.28100013733 sec.
+horizontal_slider_6 : 1.09099984169 sec.
+height_1 : 0.291500091553 sec.
+horizontal_slider_4 : 0.803999900818 sec.
+height_3 : 0.415000200272 sec.
+width_6 : 1.80399990082 sec.
+width_7 : 1.22749996185 sec.
+circle_area_2 : 0.603499889374 sec.
+width_5 : 0.837499856949 sec.
+width_2 : 1.36350011826 sec.
+circle_area_5 : 0.386999845505 sec.
+circle_area_6 : 0.515000104904 sec.
+circle_area_7 : 0.295000076294 sec.
+horizontal_direction_1 : 0.863500118256 sec.
+angle_2 : 0.388500213623 sec.
+angle_1 : 0.323500156403 sec.
+square_area_4 : 0.479499816895 sec.
+horizontal_direction_5 : 1.15149998665 sec.
+horizontal_direction_4 : 0.579999923706 sec.
+angle_5 : 0.448000192642 sec.
+angle_4 : 0.820000171661 sec.
+line_shape_5 : 1.32000017166 sec.
+horizontal_slider_5 : 0.479499816895 sec.
+width_4 : 0.795500040054 sec.
+square_area_2 : 0.674500226974 sec.
+horizontal_slider_7 : 0.347499847412 sec.
+line_shape_7 : 3.33300018311 sec.
+circle_area_1 : 0.90399980545 sec.
+vertical_slider_2 : 1.14100003242 sec.
+vertical_slider_3 : 1.21149992943 sec.
+vertical_slider_1 : 0.906500101089 sec.
+vertical_slider_6 : 0.442999839783 sec.
+vertical_slider_7 : 0.163499832153 sec.
+vertical_slider_4 : 0.493499994278 sec.
+vertical_slider_5 : 0.944000005722 sec.
+horizontal_direction_7 : 1.20350003242 sec.
+line_shape_3 : 1.26450014114 sec.
+circle_area_3 : 0.359499931335 sec.
+vertical_direction_6 : 0.766999959946 sec.
+horizontal_direction_3 : 0.472999811172 sec.
+circle_area_4 : 0.917500019073 sec.
+height_2 : 0.946499824524 sec.
+width_3 : 0.495499849319 sec.
+width_1 : 0.720999956131 sec.
+------------------
+Average interaction time taken for study
+------------------
+90.4609997272 sec.
+------------------
+Total question time stats by question and user
+------------------
+------
+user16314881
+------
+hor_curve_1 : 6.20100021362 sec.
+angle_3 : 3.27799987793 sec.
+hor_curve_3 : 5.20600032806 sec.
+hor_curve_2 : 4.60700035095 sec.
+hor_curve_5 : 3.19799995422 sec.
+hor_curve_4 : 3.46299982071 sec.
+hor_curve_7 : 3.74099969864 sec.
+hor_curve_6 : 5.65299987793 sec.
+square_area_7 : 3.94099998474 sec.
+square_area_6 : 3.93400001526 sec.
+square_area_5 : 4.53700017929 sec.
+line_shape_2 : 4.06299972534 sec.
+square_area_3 : 4.99799966812 sec.
+line_shape_4 : 4.65400028229 sec.
+square_area_1 : 5.48300027847 sec.
+line_shape_6 : 3.6779999733 sec.
+texture_5 : 8.79900026321 sec.
+texture_4 : 7.89999961853 sec.
+texture_7 : 4.09399986267 sec.
+texture_6 : 4.22000026703 sec.
+texture_1 : 4.42999982834 sec.
+texture_3 : 4.98699998856 sec.
+texture_2 : 5.51600027084 sec.
+height_7 : 4.26099967957 sec.
+angle_7 : 6.27899980545 sec.
+line_shape_1 : 3.70200014114 sec.
+angle_6 : 4.95099973679 sec.
+vertical_direction_1 : 4.89699983597 sec.
+horizontal_slider_2 : 3.32600021362 sec.
+vertical_direction_3 : 4.1970000267 sec.
+vertical_direction_2 : 3.97000026703 sec.
+vertical_direction_5 : 3.8780002594 sec.
+vertical_direction_4 : 4.882999897 sec.
+vertical_direction_7 : 3.30100011826 sec.
+height_5 : 6.06200027466 sec.
+horizontal_direction_2 : 6.30399990082 sec.
+horizontal_direction_6 : 4.25600004196 sec.
+height_4 : 2.71500015259 sec.
+horizontal_slider_3 : 3.75099992752 sec.
+height_6 : 5.60599994659 sec.
+horizontal_slider_1 : 4.21600008011 sec.
+horizontal_slider_6 : 4.39899969101 sec.
+height_1 : 3.68499994278 sec.
+horizontal_slider_4 : 11.007999897 sec.
+height_3 : 3.59100008011 sec.
+width_6 : 4.29400014877 sec.
+width_7 : 3.6779999733 sec.
+circle_area_2 : 3.83699989319 sec.
+width_5 : 3.15899991989 sec.
+width_2 : 4.95800018311 sec.
+circle_area_5 : 3.90199995041 sec.
+circle_area_6 : 3.91699981689 sec.
+circle_area_7 : 2.89599990845 sec.
+horizontal_direction_1 : 4.24599981308 sec.
+angle_2 : 3.1970000267 sec.
+angle_1 : 2.83399963379 sec.
+square_area_4 : 3.56500005722 sec.
+horizontal_direction_5 : 6.05300045013 sec.
+horizontal_direction_4 : 4.44400024414 sec.
+angle_5 : 5.28399991989 sec.
+angle_4 : 3.73299980164 sec.
+line_shape_5 : 4.56500005722 sec.
+horizontal_slider_5 : 3.90199995041 sec.
+width_4 : 4.63000011444 sec.
+square_area_2 : 3.90999984741 sec.
+horizontal_slider_7 : 4.46200037003 sec.
+line_shape_7 : 5.74900007248 sec.
+circle_area_1 : 3.97799968719 sec.
+vertical_slider_2 : 5.95300006866 sec.
+vertical_slider_3 : 5.00899982452 sec.
+vertical_slider_1 : 4.79899978638 sec.
+vertical_slider_6 : 3.20300006866 sec.
+vertical_slider_7 : 3.0720000267 sec.
+vertical_slider_4 : 3.19000005722 sec.
+vertical_slider_5 : 5.46999979019 sec.
+horizontal_direction_7 : 5.04800033569 sec.
+line_shape_3 : 5.53999996185 sec.
+circle_area_3 : 4.22200012207 sec.
+vertical_direction_6 : 4.35100030899 sec.
+horizontal_direction_3 : 4.16599988937 sec.
+circle_area_4 : 4.75 sec.
+height_2 : 4.29500007629 sec.
+width_3 : 4.64699983597 sec.
+width_1 : 11.1260004044 sec.
+Total number of seconds user user16314881 spent on study : 387.853000641 sec.
+------
+user11419761
+------
+hor_curve_1 : 2.26199960709 sec.
+angle_3 : 1.99099969864 sec.
+hor_curve_3 : 2.67000007629 sec.
+hor_curve_2 : 6.81500005722 sec.
+hor_curve_5 : 2.54099988937 sec.
+hor_curve_4 : 2.79699993134 sec.
+hor_curve_7 : 2.54200029373 sec.
+hor_curve_6 : 4.83800029755 sec.
+square_area_7 : 2.16699981689 sec.
+square_area_6 : 2.34200000763 sec.
+square_area_5 : 3.15999984741 sec.
+line_shape_2 : 3.83700037003 sec.
+square_area_3 : 2.63500022888 sec.
+line_shape_4 : 2.04500007629 sec.
+square_area_1 : 2.56299972534 sec.
+line_shape_6 : 3.07100009918 sec.
+texture_5 : 1.71899986267 sec.
+texture_4 : 1.73500013351 sec.
+texture_7 : 2.21000003815 sec.
+texture_6 : 2.12599992752 sec.
+texture_1 : 1.84600019455 sec.
+texture_3 : 1.78100013733 sec.
+texture_2 : 1.86800003052 sec.
+height_7 : 2.37100028992 sec.
+angle_7 : 2.882999897 sec.
+line_shape_1 : 2.14200019836 sec.
+angle_6 : 2.30099964142 sec.
+vertical_direction_1 : 2.22200012207 sec.
+horizontal_slider_2 : 3.62300014496 sec.
+vertical_direction_3 : 2.35799980164 sec.
+vertical_direction_2 : 2.57299995422 sec.
+vertical_direction_5 : 1.96799993515 sec.
+vertical_direction_4 : 1.9969997406 sec.
+vertical_direction_7 : 1.70500040054 sec.
+height_5 : 1.15100002289 sec.
+horizontal_direction_2 : 2.06199979782 sec.
+horizontal_direction_6 : 2.742000103 sec.
+height_4 : 1.90199995041 sec.
+horizontal_slider_3 : 1.89400005341 sec.
+height_6 : 1.91100025177 sec.
+horizontal_slider_1 : 2.45399999619 sec.
+horizontal_slider_6 : 1.90299987793 sec.
+height_1 : 2.66199970245 sec.
+horizontal_slider_4 : 2.03900003433 sec.
+height_3 : 2.25400018692 sec.
+width_6 : 5.55000019073 sec.
+width_7 : 4.85400009155 sec.
+circle_area_2 : 2.49399995804 sec.
+width_5 : 4.41599988937 sec.
+width_2 : 2.78999996185 sec.
+circle_area_5 : 3.70300006866 sec.
+circle_area_6 : 2.19799995422 sec.
+circle_area_7 : 2.35199975967 sec.
+horizontal_direction_1 : 1.91100025177 sec.
+angle_2 : 1.87299966812 sec.
+angle_1 : 2.19800043106 sec.
+square_area_4 : 2.92599964142 sec.
+horizontal_direction_5 : 1.68799972534 sec.
+horizontal_direction_4 : 2.09299993515 sec.
+angle_5 : 1.75099992752 sec.
+angle_4 : 3.08599996567 sec.
+line_shape_5 : 2.41499996185 sec.
+horizontal_slider_5 : 1.99800014496 sec.
+width_4 : 2.32599973679 sec.
+square_area_2 : 2.20600032806 sec.
+horizontal_slider_7 : 1.96800041199 sec.
+line_shape_7 : 3.16300010681 sec.
+circle_area_1 : 2.19799995422 sec.
+vertical_slider_2 : 2.33200025558 sec.
+vertical_slider_3 : 2.125 sec.
+vertical_slider_1 : 2.42999982834 sec.
+vertical_slider_6 : 2.54299974442 sec.
+vertical_slider_7 : 2.55999994278 sec.
+vertical_slider_4 : 2.76599979401 sec.
+vertical_slider_5 : 3.05700016022 sec.
+horizontal_direction_7 : 2.11100006104 sec.
+line_shape_3 : 2.82899999619 sec.
+circle_area_3 : 2.54699993134 sec.
+vertical_direction_6 : 2.08599996567 sec.
+horizontal_direction_3 : 2.88200044632 sec.
+circle_area_4 : 1.90000009537 sec.
+height_2 : 2.98299980164 sec.
+width_3 : 1.89400005341 sec.
+width_1 : 1.84599971771 sec.
+Total number of seconds user user11419761 spent on study : 211.726000309 sec.
+------------------
+Average total time taken for study
+------------------
+299.789500475 sec.
+------------------
+Average errors by encoding
+------------------
+vertical_curve : 55.9344293273
+height : 71.9523809524
+slider : -0.257170068027
+circle_area : 167.214285714
+square_area : 151.791420068
+vertical_distance : 42.543877551
+angle : 121.890023268
+horizontal_distance : -1.61783113245
+horizontal_curve : -9.27097505669
+texture : 18.9234693878
+vertical_slider : 0.498857142857
+width : 65.6517006803

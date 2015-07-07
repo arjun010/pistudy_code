@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <script src="js/le.min.js"></script>
+    <script>
+    
+    LE.init('');
+    </script>   
+    <script src="d3/d3.min.js" charset="utf-8"></script>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+        <script type="text/javascript">
+    var logs = [];
+    var firstTime = 1;
+    </script>
+</head>
+<body>
+<input placeholder="enter name before starting" id="textbox"></input>
+<div id="vis"></div>
+<div id="displaylogs"></div>
+<button id="create" onclick="sendLogs()">Submit</button>
+</body>
+
+<script type="text/javascript">
+    var svg, frameGroup, dragRect, dragBarTop, dragBarRight, rotateHandler,
+    x = 100, y = 100,
+    angle = 0,
+    width = 200, height = 100,
+    bar = 6,
+    that = this;
+
+svg = d3.select('#vis').append('svg').attr({
+    width: 800,
+    height: 300
+});
+
+frameGroup = svg.append('g')
+.attr({
+    'pointer-events': 'all',
+    'class': 'dummy frameGroup'
+});
+
+dragRect = frameGroup.append('rect')
+.attr('class', 'dummy dragRect')
+.attr('fill', 'black')
+.attr('fill-opacity', 0.3);
+
+dragBarTop = frameGroup.append('rect')
+.attr('class', 'dummy dragBarTop')
+.attr('fill', 'black')
+.attr('fill-opacity', 0.6)
+.attr('cursor', 'ns-resize')
+.call(d3.behavior.drag().on('drag', function() {
+    height = height + (y - d3.event.y);
+    y = d3.event.y;
+    if (height < bar) {
+        return;
+    }
+    
+    positionate();
+}));
+
+positionate();
+
+function positionate() {
+    var rotate, translate;
+    rotate = ' rotate(' + angle + ', ' + (width / 2) + ', ' + (height / 2) + ')';
+    translate = 'translate(' + x + ',' + y + ')';
+    dragRect.attr('transform', translate + rotate);
+    dragRect.attr('width', width);
+    dragRect.attr('height', height);
+
+    rotate = ' rotate(' + angle + ', ' + (width / 2) + ', ' + (height / 2) + ')';
+    translate = 'translate(' + x + ',' + y + ')';
+    dragBarTop.attr('transform', translate + rotate);
+    dragBarTop.attr('height', bar);
+    dragBarTop.attr('width', width);
+
+var currentdate = new Date(); 
+var datetime = "Last Sync: " + currentdate.getDate() + "/"
+                + (currentdate.getMonth()+1)  + "/" 
+                + currentdate.getFullYear() + " @ "  
+                + currentdate.getHours() + ":"  
+                + currentdate.getMinutes() + ":" 
+                + currentdate.getSeconds();
+   
+    logs.push({"user":document.getElementById('textbox').value,"datetime":datetime,"height":height});
+}
+
+function sendLogs(){
+    for(var i=0;i<logs.length;i++){
+        LE.log("{\"User\":"+logs[i]['user']+",\"Datetime\":"+logs[i]['datetime']+",\"height\":"+logs[i]['height']+"}");
+    }
+    alert("Thank you!");
+}
+</script>
+</html>

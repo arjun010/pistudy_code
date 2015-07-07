@@ -1,0 +1,254 @@
+<html>
+<head>
+	<meta charset="utf-8" />
+	<script src="js/jquery-1.11.2.min.js"></script>
+	<script src="js/le.min.js"></script>
+    <script>
+    	//LE.init('f7e6ece9-d0af-4227-a741-668224947df9');
+    </script>   
+    <script src="d3/d3.min.js"></script>
+    <script type="text/javascript" src="js/textures.js"></script>
+    <script type="text/javascript" src="js/questionOrderSets.js"></script>
+	<link rel="stylesheet" href="css/d3.slider.css"/>
+	<script type="text/javascript">
+		var logs = [];
+		var coveredQuestions = [];
+		var questionNumber = 1;
+		var firstTime = 1;
+		var submitPressed = 0;
+		var questionCount = 0;
+		var totalQuestionCount = 10;
+		var currentdate = new Date(); 
+		var sessionUserId="user"+currentdate.getHours()+currentdate.getMinutes()+currentdate.getSeconds()+currentdate.getMilliseconds();
+		var currentQuestionSet=-1;
+		var currentQuestionIndex = 0;
+		var curSize = 10;
+		var curScreen = 0;
+		var skipSendLogs = 1;
+		var values = [];		
+	</script>
+	<style type="text/css">
+	.circleareadragger{
+      cursor: ew-resize;
+    }
+    .positionrotatehandler{
+    	cursor: move;	
+    }
+    .rectareadragger{
+    	cursor: nwse-resize;
+    }
+	</style>
+</head>
+<body>
+	<div  id="maincontent" align="center">
+		<p id="questionnumbertext"></p>
+		<p id="questiontext"></p>
+		<p id="interaction"></p>
+		<div id="vizcontainer">
+		<div id="viz" align="center"></div>
+		</div>
+		<button id="increaseButton" onclick="increase()">increase</button>
+		<button id="decreaseButton" onclick="decrease()">decrease</button>		
+		<canvas id="mycanvas" height="500" width="500" class="quadratic" style="border:1px solid #000000;"></canvas><br/>
+		<p style="font-size:15px;font-family:sans-serif;" id="instructionstext">You will first be presented with a <b>trial set</b> of 8 questions which will include tasks similar to the ones you will need to perform in the actual study.<br/>
+		For the trial set, you will be provided with explicit instructions on how to interact with the visual element. You will have to use the same techniques in the actual study following the trial.<br/>
+		If you answer one or more questions in the trial wrong by a very large margin, you will be asked to <b>repeat the trial</b>.<br/>
+		Perform the required interaction for each question in order to progress to the next one.<br/>
+		Click "Start" to begin the trial set.
+		</p>
+		<button onclick="nextScreen()" id="nextbutton">Start</button>		
+	</div>
+	<div id="closingnotes" align="center">
+		<p>Thank you for completing the trial.</p>		
+		<a href="newindex.html">Begin the actual study.</a>
+	</div>
+	<div id="restartmessage" align="center">
+		<p>Sorry, your answers were very inaccurate for one or more questions. Please refresh the page to restart the questionnaire.</p>				
+	</div>
+</body>
+<script src="js/d3.slider.js"></script>
+<script type="text/javascript">
+	$("#textbox").hide();
+	$("#mycanvas").hide();
+	$("#submitbutton").hide();
+	$("#closingnotes").hide();
+	$("#restartmessage").hide();
+	$("#increaseButton").hide();
+	$("#decreaseButton").hide();
+	function nextScreen () {
+		curScreen += 1;
+		if(curScreen==1){
+			$("#instructionstext").hide();
+			$("#nextbutton").html('Next');
+			$("#nextbutton").hide();
+			$("#mycanvas").hide();
+			$("#sliderDiv").remove();
+			$("#sliderDiv1").remove();
+			$("#increaseButton").hide();
+			$("#decreaseButton").hide();
+			d3.selectAll("svg").remove();
+			$("#questiontext").text("Make the height of the rectangle 150% of its current height");
+			$("#interaction").text("Interaction: Click and drag the dark gray bar on the upper end of the rectangle to adjust its height.");
+			var svg, frameGroup, dragRect, dragBarTop, dragBarRight, rotateHandler,
+		    x = 300, y = 400,
+		    angle = 0,
+		    width = 200, height = 100,
+		    bar = 6,
+		    that = this;
+			svg = d3.select('#viz').append('svg').attr({
+			    width: 800,
+			    height: 550
+			});
+
+			svg.append("rect")
+		       .attr("x",0)
+		       .attr("y",0)
+		       .attr("width",800)
+		       .attr("height",550)
+		       .attr("fill","white")
+		       .style("stroke","black");
+
+			frameGroup = svg.append('g')
+			.attr({
+			    'pointer-events': 'all',
+			    'class': 'dummy frameGroup'
+			});
+
+			dragRectStatic = frameGroup.append('rect')
+			.attr('class', 'dummy dragRectStatic')
+			.attr('fill', 'black')
+			.attr('fill-opacity', 0.2)
+			.attr("x",x)
+			.attr("y",y)
+			.attr("width",width)
+			.attr("height",height);
+
+			dragRect = frameGroup.append('rect')
+			.attr('class', 'dummy dragRect')
+			.attr('fill', 'black')
+			.attr('fill-opacity', 0.5);
+
+					
+
+			dragBarTop = frameGroup.append('rect')
+			.attr('class', 'dummy dragBarTop')
+			.attr('fill', 'black')
+			.attr('fill-opacity', 0.6)
+			.attr('cursor', 'ns-resize')
+			.call(d3.behavior.drag().on('drag', function() {
+			    height = height + (y - d3.event.y);
+			    y = d3.event.y;
+			    if (height < bar) {
+			        return;
+			    }
+			    $("#nextbutton").show();
+			    positionate();
+			}));
+			var skipLog=1;
+			positionate();
+
+			function positionate() {
+			    var rotate, translate;
+			    rotate = ' rotate(' + angle + ', ' + (width / 2) + ', ' + (height / 2) + ')';
+			    translate = 'translate(' + x + ',' + y + ')';
+			    dragRect.attr('transform', translate + rotate);
+			    dragRect.attr('width', width);
+			    dragRect.attr('height', height);
+
+			    rotate = ' rotate(' + angle + ', ' + (width / 2) + ', ' + (height / 2) + ')';
+			    translate = 'translate(' + x + ',' + y + ')';
+			    dragBarTop.attr('transform', translate + rotate);
+			    dragBarTop.attr('height', bar);
+			    dragBarTop.attr('width', width);
+
+				values.push(height)
+			}
+		}
+		else if(curScreen==2){
+			console.log(values[values.length-1])
+			$("#instructionstext").hide();
+			$("#nextbutton").html('Next');
+			$("#nextbutton").hide();
+			$("#mycanvas").hide();
+			$("#sliderDiv").remove();
+			$("#sliderDiv1").remove();
+			$("#increaseButton").hide();
+			$("#decreaseButton").hide();
+			d3.selectAll("svg").remove();
+			var svg, frameGroup, dragRect, dragBarTop, dragBarRight, rotateHandler,
+		    x = 300, y = 400,
+		    angle = 0,
+		    width = 200, height = 100,
+		    bar = 6,
+		    that = this;
+			svg = d3.select('#viz').append('svg').attr({
+			    width: 800,
+			    height: 550
+			});
+
+			svg.append("rect")
+		       .attr("x",0)
+		       .attr("y",0)
+		       .attr("width",800)
+		       .attr("height",550)
+		       .attr("fill","white")
+		       .style("stroke","black");
+
+			frameGroup = svg.append('g')
+			.attr({
+			    'pointer-events': 'all',
+			    'class': 'dummy frameGroup'
+			});
+
+			/*dragRectStatic = frameGroup.append('rect')
+			.attr('class', 'dummy dragRectStatic')
+			.attr('fill', 'black')
+			.attr('fill-opacity', 0.2)
+			.attr("x",x)
+			.attr("y",y)
+			.attr("width",width)
+			.attr("height",height);*/
+
+			dragRect = frameGroup.append('rect')
+			.attr('class', 'dummy dragRect')
+			.attr('fill', 'black')
+			.attr('fill-opacity', 0.5);
+
+			dragBarTop = frameGroup.append('rect')
+			.attr('class', 'dummy dragBarTop')
+			.attr('fill', 'black')
+			.attr('fill-opacity', 0.6)
+			.attr('cursor', 'ns-resize');
+
+			dragBarTopEndValue = frameGroup.append('rect')
+			.attr('class', 'dummy dragBarTopEndValue')
+			.attr('fill', 'blue')
+			.attr('fill-opacity', 0.6)
+			.attr('y',values[values.length-1]+y)
+			.attr('x',x)
+			.attr('width',width)
+			.attr('height',5);
+
+			//positionate();
+
+			function positionate() {
+			    var rotate, translate;
+			    rotate = ' rotate(' + angle + ', ' + (width / 2) + ', ' + (height / 2) + ')';
+			    translate = 'translate(' + x + ',' + y + ')';
+			    dragRect.attr('transform', translate + rotate);
+			    dragRect.attr('width', width);
+			    dragRect.attr('height', height);
+
+			    rotate = ' rotate(' + angle + ', ' + (width / 2) + ', ' + (height / 2) + ')';
+			    translate = 'translate(' + x + ',' + y + ')';
+			    dragBarTop.attr('transform', translate + rotate);
+			    dragBarTop.attr('height', bar);
+			    dragBarTop.attr('width', width);
+
+				//values.push(height)
+			}
+
+		}
+	}
+</script>
+</html>

@@ -1,0 +1,121 @@
+<html>
+<head>
+<title>VAL@GT Perceptive interaction study</title>
+<script src="js/jquery-1.11.2.min.js"></script>
+<script src="js/le.min.js"></script>	
+<script type="text/javascript">
+    function setCookie(cname, cvalue) {
+        var d = new Date();
+        //d.setTime(d.getTime() + (exdays*24*60*60*1000));
+        //var expires = "expires="+d.toUTCString();
+        document.cookie = cname + "=" + cvalue + ";";
+    }
+    var currentdate = new Date(); 
+    var sessionUserId="user"+currentdate.getHours()+currentdate.getMinutes()+currentdate.getSeconds()+currentdate.getMilliseconds();
+    //console.log(sessionUserId)
+    setCookie("sessionUserId",sessionUserId)
+
+	LE.init('87db29d2-cd0d-41f2-a1da-4f6b2fe89290');
+	var userPlatform = navigator.platform;
+	function getCookie(cname) {
+		    var name = cname + "=";
+		    var ca = document.cookie.split(';');
+		    for(var i=0; i<ca.length; i++) {
+		        var c = ca[i];
+		        while (c.charAt(0)==' ') c = c.substring(1);
+		        if (c.indexOf(name) == 0) return c.substring(name.length, c.length);
+		    }
+		    //console.log("here")
+		    return "";
+		}
+	var sessionUserId = getCookie("sessionUserId");
+</script>
+</head>
+<body>
+<div align="center">
+    <br>
+    <p>To log your interactions during the session, we need to use the create a session cookie on your browser. Please ensure that cookies are enabled on your browser.<br/> Click the button below to check if your cookies are enabled - if your see a message saying "Cookies enabled", then you may proceed.<br> If not, please enable your cookies and restart the study. <br><span style="color:red">NOTE: unless your cookies are enabled, we will not be able to map your email to your session - this is needed to ensure you get your payment for participation.</span></p>
+    <button onclick="checkCookies()">Check Cookies</button>
+	<hr/>
+	Please provide us with the following details before you being the trial questions:
+	<br/>
+    <br/>
+	Age: <select id="age">
+    </select>
+    <br/>
+    <br/>
+	Gender: <select id="gender">
+	<option value="male">Male</option>
+	<option value="female">Female</option>
+    </select>
+    <br/>
+    <br/>
+    Highest Education level attained: <select id="education">
+	<option value="high_school">High School</option>
+	<option value="bachelors">Bachelor's</option>
+	<option value="masters">Master's</option>
+	<option value="phd">Doctorate or above</option>
+    </select>
+    <br/>
+    <br/>
+    Interaction Device: <select id="device">
+	<option value="mouse">Mouse</option>
+	<option value="trackpad">Trackpad</option>
+	<option value="touchscreen">Touchscreen</option>
+	<option value="others">Others</option>
+    </select>
+    <br/>
+    <br/>
+    Screen size (for best performance, we recommend using a 12" screen or above): <select id="screensize">
+	</select>
+    <br/>
+    <br/>
+    Email address to contact for payment: <input id="email" type="text" style="width:200px;">
+    <br/>
+    <br/>
+    <button onclick="submit()">Submit and Being Trial Set</button>
+</div>
+<script type="text/javascript">
+    //var x = document.getElementById("age");
+    for(var i=18;i<101;i++){
+	    //var option = document.createElement("option");
+	    $("#age").append('<option value="'+i+'">'+i+'</option>');
+	    //option.text = ""+i;
+	    //x.add(option);
+    }
+    var x = document.getElementById("screensize");
+    for(var i=7;i<40;i++){
+	    //var option = document.createElement("option");
+	    $("#screensize").append('<option value="'+i+'">'+i+'</option>');
+	    //option.text = ""+i;
+	    //x.add(option);
+    }
+    function checkCookies(){
+        if(navigator.cookieEnabled){
+            alert("Cookies enabled!")
+        }else{
+            alert("Cookies are disabled! Please enable them and restart the study to ensure your session is logged correctly.")
+        }
+    }
+    //console.log(sessionUserId)
+    function submit(){
+    	var userAge = $("#age").val()
+    	var userGender = $("#gender").val()
+    	var userEducation = $("#education").val()
+    	var userDevice = $("#device").val()
+    	var userScreenSize = $("#screensize").val()
+    	var userEmail = $("#email").val()    	
+    	if(userEmail!=""){
+            alert("Thank you for the information. You will now be presented with the trial question set (may take 3-5 seconds to load, please be patient)."); 
+    		var currentdate = new Date(); 
+			var datetime = currentdate.getHours()+":"+currentdate.getMinutes()+":"+currentdate.getSeconds()+":"+currentdate.getMilliseconds();
+    		LE.log(JSON.stringify({"user":sessionUserId,"userPlatform":userPlatform,"datetime":datetime,"question":"user_info","age":userAge,"gender":userGender,"device":userDevice,"education":userEducation,"email":userEmail,"date":currentdate}));
+            setTimeout(function(){ window.location.href = 'trialQuestions.html'; }, 3000);
+    		
+    	}else{
+    		alert("Please enter your email id to proceed.")
+    	}
+    }
+</script>
+</body>
+</html>
